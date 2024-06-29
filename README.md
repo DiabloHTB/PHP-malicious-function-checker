@@ -14,7 +14,7 @@ This script checks which potentially dangerous PHP functions are still enabled i
 Use `phpinfo()` to get a list of disabled fucntions under `disable_functions` from the target and clone this repository to your local machine and run the scrtipt:
 
 ```bash
-git clone https://github.com/yourusername/php-dangerous-functions-checker.git
+git clone https://github.com/DiabloHTB/php-dangerous-functions-checker.git
 cd php-dangerous-functions-checker
 python3 php_function_check.py "list,of,disabled,fucntions" #Copy the list directly from the phpinfo page
 ```
